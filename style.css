@@ -1,0 +1,179 @@
+body, * {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #869FA3;
+    overflow-wrap: break-word;
+    font-family: 'Merriweather Sans', sans-serif;
+    /*border: solid red 2px;*/
+}
+
+body {
+    display: flex;
+    background-color: #022829;
+    padding: 40px;
+}
+
+body > .flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#aside {
+    width: 25%;
+    min-width: 180px;
+}
+
+#main {
+    width: 75%;
+    min-width: 50px;
+}
+
+.block {
+    background-color: #053e40;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+#profile > * {
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+}
+
+#profile img{
+    border-radius: 75px;
+    width: 80%;
+    max-width: 150px;
+    border: solid rgb(209, 6, 6) 3px;
+    margin: 20px;
+}
+
+#links > div span {
+    position: relative;
+    bottom: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#techs > div{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.tech{
+    background-color: #022829;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 28px;
+    width: 88px;
+    margin: 3px;
+    padding: 5px 0px 0px 0px;
+}
+
+#exp, #ed{
+    font-size: 15px;
+}
+
+ul {
+    margin: 20px;
+}
+
+li {
+    font-weight: 700;
+}
+
+#projects {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+}
+
+.share{
+    float: left;
+}
+
+.share img{
+    position: relative;
+    margin: 3px;
+    bottom: 2px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.language{
+    float: right;
+    display: flex;
+    height: 35px;
+}
+
+.ball{
+    font-size: 50px;
+    margin-top: -20px;
+    color: #3572a5;
+}
+
+.python{
+    float: right;
+}
+
+.project h1{
+    display: inline;
+    vertical-align: middle;
+}
+
+.project img{
+    vertical-align: middle;
+}
+
+.project p{
+    margin-top: 10px;
+}
+
+
+#posts{
+    display: flex;
+}
+
+#posts img{
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+#posts h2{
+    margin-bottom: 6px;
+}
